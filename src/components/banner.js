@@ -16,9 +16,7 @@ export default class Banner extends Component {
             <span>Hello...</span>
             <h1>I'm {data.designation}.</h1>
             <ul className="sub-data">
-              {data.bannerList.map((item, index) => {
-                return <li key={index}>{item}</li>;
-              })}
+              We serve the Southern Wisconsin and Northern Illinois area providing professional drone photography and videography services.
             </ul>
             <ul className="social">
               <li>
