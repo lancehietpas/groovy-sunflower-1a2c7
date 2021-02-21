@@ -7,7 +7,6 @@ export default class footer extends Component {
        
           
         </div>
-      </div>
     );
   }
 }
