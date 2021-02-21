@@ -7,7 +7,7 @@ export default class Contact extends Component {
         <div className="container">
           <div className="section-head">
             <h2 className="text-center">Contact</h2>
-            <h3 className="text-center">Need Us Now? Call or Text Us at +1 608 473-5120</h2>
+            <h3 className="text-center">Need Us Now? Call or Text Us at +1 608 473-5120</h3>
           </div>
           <form
             action={`https://formspree.io/${this.props.data}`}
